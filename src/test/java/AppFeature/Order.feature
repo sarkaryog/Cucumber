@@ -16,20 +16,15 @@ Background:
     And user click on login button
     Then user navigate to order page
 
-
-
   Scenario: Check previous Order details
   
       When user clicks on previous order link
       Then user check the previous order details
-
  
   Scenario: Check open order details
   
       When user clicks on open order link
       Then user check the open order details
-  
-  
   
   Scenario: Check cancelled order details
   
